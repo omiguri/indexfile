@@ -137,23 +137,10 @@ ul a {
     display: flex;
     
 }
-.para h3{
-    border: 2px solid;
-    width: 10%;
-    text-align:center;
-    margin-top:20px;
-    align-items: center;
-    border-radius:5px;
-    padding-top:10px ;
-}
-.cart{
-    display: flex;
-    
-}
 .cart h2{
     border: 2px solid;
     margin-top: 20px; 
-    margin-left:15px;
+    margin-left:15px ;
     width: 30%;
     text-align: center;
     border-radius: 5px;
@@ -169,4 +156,22 @@ ul a {
     text-align: center;
     padding: 1rem;
     font-size:13px;
+}
+input{
+    margin:15px;
+    padding:5px;
+    border-radius:10px;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    font-size:15px;
+    border-radius:5px; 
+}
+.one h1{
+    text-shadow: 1px 1px 2px white,0px 0px 25px blue,0px 0px 5px darkblue;
+}
+.one p{
+    text-shadow: 1px 1px 2px white,0px 0px 25px lightblue,0px 0px 5px skyblue;
 }
